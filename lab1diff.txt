@@ -1,0 +1,75 @@
+diff --git a/kern/kdebug.c b/kern/kdebug.c
+index 9547143..ee5462f 100644
+--- a/kern/kdebug.c
++++ b/kern/kdebug.c
+@@ -180,7 +180,10 @@ debuginfo_eip(uintptr_t addr, struct Eipdebuginfo *info)
+ 	//	which one.
+ 	// Your code here.
+ 
+-
++        stab_binsearch(stabs, &lline, &rline, N_SLINE, addr);
++        if (lline > rline)
++            return -1;
++        info->eip_line = stabs[rline].n_desc;
+ 	// Search backwards from the line number for the relevant filename
+ 	// stab.
+ 	// We can't just use the "lfile" stab because inlined functions
+diff --git a/kern/monitor.c b/kern/monitor.c
+index f8a934a..92bf83c 100644
+--- a/kern/monitor.c
++++ b/kern/monitor.c
+@@ -59,7 +59,32 @@ int
+ mon_backtrace(int argc, char **argv, struct Trapframe *tf)
+ {
+ 	// Your code here.
+-	return 0;
++        cprintf("Stack backtrace:\n");
++        uint32_t ebp = read_ebp();
++	uint32_t old_ebp = *(uint32_t *) ebp;
++        uint32_t ret = *(((uint32_t *) ebp) + 1);
++        uint32_t old_ret = *(((uint32_t *)old_ebp) + 1);
++        uint32_t args[5];
++        struct Eipdebuginfo info;
++        int i;
++        while (ebp != 0x0) {
++            for (i = 0; i < 5; i++) 
++                args[i] = *((uint32_t *) ebp + i + 2);                    
++            debuginfo_eip(ret, &info);
++            cprintf("  ebp %x eip %x args %08x %08x %08x %08x %08x\n"  // no ,
++                    "         %s:%d: %.*s+%d\n",
++                    ebp, ret, args[0], args[1], args[2], args[3], args[4],
++                    info.eip_file, info.eip_line, info.eip_fn_namelen, info.eip_fn_name, (ret-info.eip_fn_addr)
++                    );
++        
++            ebp = old_ebp;
++            old_ebp = *(uint32_t *) ebp;
++            ret = old_ret;
++            old_ret = *(((uint32_t *) old_ebp) + 1);                                                         
++        }
++
++        
++        return 0;
+ }
+ 
+ 
+diff --git a/lib/printfmt.c b/lib/printfmt.c
+index 28e01c9..787e722 100644
+--- a/lib/printfmt.c
++++ b/lib/printfmt.c
+@@ -206,11 +206,11 @@ vprintfmt(void (*putch)(int, void*), void *putdat, const char *fmt, va_list ap)
+ 		// (unsigned) octal
+ 		case 'o':
+ 			// Replace this with your code.
+-			putch('X', putdat);
+-			putch('X', putdat);
+-			putch('X', putdat);
+-			break;
+-
++                        num = getuint(&ap,lflag);
++                        base = 8;
++                        goto number;
++                	//break;
++    
+ 		// pointer
+ 		case 'p':
+ 			putch('0', putdat);

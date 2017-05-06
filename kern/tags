@@ -1,0 +1,370 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOC_ZERO	pmap.h	/^	ALLOC_ZERO = 1<<0,$/;"	e	enum:__anon3
+ALT	console.c	/^#define ALT	/;"	d	file:
+ASSERT	lapic.c	/^	#define ASSERT /;"	d	file:
+BCAST	lapic.c	/^	#define BCAST /;"	d	file:
+BUSY	lapic.c	/^	#define BUSY /;"	d	file:
+C	console.c	/^#define C(/;"	d	file:
+CAPSLOCK	console.c	/^#define CAPSLOCK	/;"	d	file:
+CGA_BASE	console.h	/^#define CGA_BASE	/;"	d
+CGA_BUF	console.h	/^#define CGA_BUF	/;"	d
+CHECKSUM	entry.S	/^#define CHECKSUM (-(MULTIBOOT_HEADER_MAGIC + MULTIBOOT_HEADER_FLAGS))$/;"	d
+CMDBUF_SIZE	monitor.c	/^#define CMDBUF_SIZE	/;"	d	file:
+COM1	console.c	/^#define COM1	/;"	d	file:
+COM_DLL	console.c	/^#define COM_DLL	/;"	d	file:
+COM_DLM	console.c	/^#define COM_DLM	/;"	d	file:
+COM_FCR	console.c	/^#define COM_FCR	/;"	d	file:
+COM_IER	console.c	/^#define COM_IER	/;"	d	file:
+COM_IER_RDI	console.c	/^#define   COM_IER_RDI	/;"	d	file:
+COM_IIR	console.c	/^#define COM_IIR	/;"	d	file:
+COM_LCR	console.c	/^#define COM_LCR	/;"	d	file:
+COM_LCR_DLAB	console.c	/^#define	  COM_LCR_DLAB	/;"	d	file:
+COM_LCR_WLEN8	console.c	/^#define	  COM_LCR_WLEN8	/;"	d	file:
+COM_LSR	console.c	/^#define COM_LSR	/;"	d	file:
+COM_LSR_DATA	console.c	/^#define   COM_LSR_DATA	/;"	d	file:
+COM_LSR_TSRE	console.c	/^#define   COM_LSR_TSRE	/;"	d	file:
+COM_LSR_TXRDY	console.c	/^#define   COM_LSR_TXRDY	/;"	d	file:
+COM_MCR	console.c	/^#define COM_MCR	/;"	d	file:
+COM_MCR_DTR	console.c	/^#define	  COM_MCR_DTR	/;"	d	file:
+COM_MCR_OUT2	console.c	/^#define	  COM_MCR_OUT2	/;"	d	file:
+COM_MCR_RTS	console.c	/^#define	  COM_MCR_RTS	/;"	d	file:
+COM_RX	console.c	/^#define COM_RX	/;"	d	file:
+COM_TX	console.c	/^#define COM_TX	/;"	d	file:
+CONSBUFSIZE	console.c	/^#define CONSBUFSIZE /;"	d	file:
+CPU_HALTED	cpu.h	/^	CPU_HALTED,$/;"	e	enum:__anon2
+CPU_STARTED	cpu.h	/^	CPU_STARTED,$/;"	e	enum:__anon2
+CPU_UNUSED	cpu.h	/^	CPU_UNUSED = 0,$/;"	e	enum:__anon2
+CRT_COLS	console.h	/^#define CRT_COLS	/;"	d
+CRT_ROWS	console.h	/^#define CRT_ROWS	/;"	d
+CRT_SIZE	console.h	/^#define CRT_SIZE	/;"	d
+CTL	console.c	/^#define CTL	/;"	d	file:
+Command	monitor.c	/^struct Command {$/;"	s	file:
+CpuInfo	cpu.h	/^struct CpuInfo {$/;"	s
+DEASSERT	lapic.c	/^	#define DEASSERT /;"	d	file:
+DEBUG_SPINLOCK	spinlock.h	/^#define DEBUG_SPINLOCK$/;"	d
+DELIVS	lapic.c	/^	#define DELIVS /;"	d	file:
+E0ESC	console.c	/^#define E0ESC	/;"	d	file:
+ENABLE	lapic.c	/^	#define ENABLE /;"	d	file:
+ENVGENSHIFT	env.c	/^#define ENVGENSHIFT	/;"	d	file:
+ENV_CREATE	env.h	/^#define ENV_CREATE(/;"	d
+ENV_PASTE3	env.h	/^#define ENV_PASTE3(/;"	d
+EOI	lapic.c	/^#define EOI /;"	d	file:
+ERROR	lapic.c	/^#define ERROR /;"	d	file:
+ESR	lapic.c	/^#define ESR /;"	d	file:
+Eipdebuginfo	kdebug.h	/^struct Eipdebuginfo {$/;"	s
+FIXED	lapic.c	/^	#define FIXED /;"	d	file:
+ICRHI	lapic.c	/^#define ICRHI /;"	d	file:
+ICRLO	lapic.c	/^#define ICRLO /;"	d	file:
+ID	lapic.c	/^#define ID /;"	d	file:
+INIT	lapic.c	/^	#define INIT /;"	d	file:
+IO_PIC1	picirq.h	/^#define IO_PIC1	/;"	d
+IO_PIC2	picirq.h	/^#define IO_PIC2	/;"	d
+IO_RTC	kclock.h	/^#define	IO_RTC	/;"	d
+IO_RTC	lapic.c	/^#define IO_RTC /;"	d	file:
+IRQ_SLAVE	picirq.h	/^#define IRQ_SLAVE	/;"	d
+JOS_INC_CPU_H	cpu.h	/^#define JOS_INC_CPU_H$/;"	d
+JOS_INC_SPINLOCK_H	spinlock.h	/^#define JOS_INC_SPINLOCK_H$/;"	d
+JOS_KERN_ENV_H	env.h	/^#define JOS_KERN_ENV_H$/;"	d
+JOS_KERN_KCLOCK_H	kclock.h	/^#define JOS_KERN_KCLOCK_H$/;"	d
+JOS_KERN_KDEBUG_H	kdebug.h	/^#define JOS_KERN_KDEBUG_H$/;"	d
+JOS_KERN_MONITOR_H	monitor.h	/^#define JOS_KERN_MONITOR_H$/;"	d
+JOS_KERN_PICIRQ_H	picirq.h	/^#define JOS_KERN_PICIRQ_H$/;"	d
+JOS_KERN_PMAP_H	pmap.h	/^#define JOS_KERN_PMAP_H$/;"	d
+JOS_KERN_SCHED_H	sched.h	/^#define JOS_KERN_SCHED_H$/;"	d
+JOS_KERN_SYSCALL_H	syscall.h	/^#define JOS_KERN_SYSCALL_H$/;"	d
+JOS_KERN_TRAP_H	trap.h	/^#define JOS_KERN_TRAP_H$/;"	d
+KADDR	pmap.h	/^#define KADDR(/;"	d
+LEVEL	lapic.c	/^	#define LEVEL /;"	d	file:
+LINT0	lapic.c	/^#define LINT0 /;"	d	file:
+LINT1	lapic.c	/^#define LINT1 /;"	d	file:
+MASKED	lapic.c	/^	#define MASKED /;"	d	file:
+MAXARGS	monitor.c	/^#define MAXARGS /;"	d	file:
+MAX_IRQS	picirq.h	/^#define MAX_IRQS	/;"	d
+MC_NVRAM_SIZE	kclock.h	/^#define	MC_NVRAM_SIZE	/;"	d
+MC_NVRAM_START	kclock.h	/^#define	MC_NVRAM_START	/;"	d
+MONO_BASE	console.h	/^#define MONO_BASE	/;"	d
+MONO_BUF	console.h	/^#define MONO_BUF	/;"	d
+MPBOOTPHYS	mpentry.S	/^#define MPBOOTPHYS(s) ((s) - mpentry_start + MPENTRY_PADDR)$/;"	d
+MPBUS	mpconfig.c	/^#define MPBUS /;"	d	file:
+MPIOAPIC	mpconfig.c	/^#define MPIOAPIC /;"	d	file:
+MPIOINTR	mpconfig.c	/^#define MPIOINTR /;"	d	file:
+MPLINTR	mpconfig.c	/^#define MPLINTR /;"	d	file:
+MPPROC	mpconfig.c	/^#define MPPROC /;"	d	file:
+MPPROC_BOOT	mpconfig.c	/^#define MPPROC_BOOT /;"	d	file:
+MULTIBOOT_HEADER_FLAGS	entry.S	/^#define MULTIBOOT_HEADER_FLAGS (0)$/;"	d
+MULTIBOOT_HEADER_MAGIC	entry.S	/^#define MULTIBOOT_HEADER_MAGIC (0x1BADB002)$/;"	d
+NCOMMANDS	monitor.c	/^#define NCOMMANDS /;"	d	file:
+NCPU	cpu.h	/^#define NCPU /;"	d
+NO	console.c	/^#define NO	/;"	d	file:
+NUMLOCK	console.c	/^#define NUMLOCK	/;"	d	file:
+NVRAM_BASEHI	kclock.h	/^#define NVRAM_BASEHI	/;"	d
+NVRAM_BASELO	kclock.h	/^#define NVRAM_BASELO	/;"	d
+NVRAM_CENTURY	kclock.h	/^#define NVRAM_CENTURY	/;"	d
+NVRAM_EXTHI	kclock.h	/^#define NVRAM_EXTHI	/;"	d
+NVRAM_EXTLO	kclock.h	/^#define NVRAM_EXTLO	/;"	d
+NVRAM_PEXTHI	kclock.h	/^#define NVRAM_PEXTHI	/;"	d
+NVRAM_PEXTLO	kclock.h	/^#define NVRAM_PEXTLO	/;"	d
+OTHERS	lapic.c	/^	#define OTHERS /;"	d	file:
+PADDR	pmap.h	/^#define PADDR(/;"	d
+PCINT	lapic.c	/^#define PCINT /;"	d	file:
+PERIODIC	lapic.c	/^	#define PERIODIC /;"	d	file:
+RELOC	entry.S	/^#define	RELOC(x) ((x) - KERNBASE)$/;"	d
+RELOC	mpentry.S	/^#define RELOC(x) ((x) - KERNBASE)$/;"	d
+SCROLLLOCK	console.c	/^#define SCROLLLOCK	/;"	d	file:
+SHIFT	console.c	/^#define SHIFT	/;"	d	file:
+SRL	entry.S	/^#define SRL(val, shamt)		(((val) >> (shamt)) & ~(-1 << (32 - (shamt))))$/;"	d
+STARTUP	lapic.c	/^	#define STARTUP /;"	d	file:
+SVR	lapic.c	/^#define SVR /;"	d	file:
+TCCR	lapic.c	/^#define TCCR /;"	d	file:
+TDCR	lapic.c	/^#define TDCR /;"	d	file:
+TICR	lapic.c	/^#define TICR /;"	d	file:
+TIMER	lapic.c	/^#define TIMER /;"	d	file:
+TPR	lapic.c	/^#define TPR /;"	d	file:
+TRAPHANDLER	trapentry.S	/^#define TRAPHANDLER(name, num)						\\$/;"	d
+TRAPHANDLER_NOEC	trapentry.S	/^#define TRAPHANDLER_NOEC(name, num)					\\$/;"	d
+UserStabData	kdebug.c	/^struct UserStabData {$/;"	s	file:
+VER	lapic.c	/^#define VER /;"	d	file:
+WHITESPACE	monitor.c	/^#define WHITESPACE /;"	d	file:
+X1	lapic.c	/^	#define X1 /;"	d	file:
+_CONSOLE_H_	console.h	/^#define _CONSOLE_H_$/;"	d
+__spin_initlock	spinlock.c	/^__spin_initlock(struct spinlock *lk, char *name)$/;"	f
+_alltraps	trapentry.S	/^_alltraps:$/;"	l
+_kaddr	pmap.h	/^_kaddr(const char *file, int line, physaddr_t pa)$/;"	f
+_paddr	pmap.h	/^_paddr(const char *file, int line, void *kva)$/;"	f
+_panic	init.c	/^_panic(const char *file, int line, const char *fmt,...)$/;"	f
+_start	entry.S	/^_start = RELOC(entry)$/;"	d
+_warn	init.c	/^_warn(const char *file, int line, const char *fmt,...)$/;"	f
+addr_6845	console.c	/^static unsigned addr_6845;$/;"	v	file:
+apicid	mpconfig.c	/^	uint8_t apicid;                 \/\/ local APIC id$/;"	m	struct:mpproc	file:
+boot_alloc	pmap.c	/^boot_alloc(uint32_t n)$/;"	f	file:
+boot_aps	init.c	/^boot_aps(void)$/;"	f	file:
+boot_map_region	pmap.c	/^boot_map_region(pde_t *pgdir, uintptr_t va, size_t size, physaddr_t pa, int perm)$/;"	f	file:
+bootcpu	mpconfig.c	/^struct CpuInfo *bootcpu;$/;"	v	typeref:struct:CpuInfo
+bootstack	entry.S	/^bootstack:$/;"	l
+bootstacktop	entry.S	/^bootstacktop:$/;"	l
+buf	console.c	/^	uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon1	file:
+cga_init	console.c	/^cga_init(void)$/;"	f	file:
+cga_putc	console.c	/^cga_putc(int c)$/;"	f	file:
+charcode	console.c	/^static uint8_t *charcode[4] = {$/;"	v	file:
+check_kern_pgdir	pmap.c	/^check_kern_pgdir(void)$/;"	f	file:
+check_page	pmap.c	/^check_page(void)$/;"	f	file:
+check_page_alloc	pmap.c	/^check_page_alloc(void)$/;"	f	file:
+check_page_free_list	pmap.c	/^check_page_free_list(bool only_low_memory)$/;"	f	file:
+check_page_installed_pgdir	pmap.c	/^check_page_installed_pgdir(void)$/;"	f	file:
+check_va2pa	pmap.c	/^check_va2pa(pde_t *pgdir, uintptr_t va)$/;"	f	file:
+checksum	mpconfig.c	/^	uint8_t checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mp	file:
+checksum	mpconfig.c	/^	uint8_t checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mpconf	file:
+commands	monitor.c	/^static struct Command commands[] = {$/;"	v	typeref:struct:Command	file:
+cons	console.c	/^} cons;$/;"	v	typeref:struct:__anon1	file:
+cons_getc	console.c	/^cons_getc(void)$/;"	f
+cons_init	console.c	/^cons_init(void)$/;"	f
+cons_intr	console.c	/^cons_intr(int (*proc)(void))$/;"	f	file:
+cons_putc	console.c	/^cons_putc(int c)$/;"	f	file:
+cprintf	printf.c	/^cprintf(const char *fmt, ...)$/;"	f
+cpu	spinlock.h	/^	struct CpuInfo *cpu;   \/\/ The CPU holding the lock.$/;"	m	struct:spinlock	typeref:struct:spinlock::CpuInfo
+cpu_env	cpu.h	/^	struct Env *cpu_env;            \/\/ The currently-running environment.$/;"	m	struct:CpuInfo	typeref:struct:CpuInfo::Env
+cpu_id	cpu.h	/^	uint8_t cpu_id;                 \/\/ Local APIC ID; index into cpus[] below$/;"	m	struct:CpuInfo
+cpu_status	cpu.h	/^	volatile unsigned cpu_status;   \/\/ The status of the CPU$/;"	m	struct:CpuInfo
+cpu_ts	cpu.h	/^	struct Taskstate cpu_ts;        \/\/ Used by x86 to find stack for interrupt$/;"	m	struct:CpuInfo	typeref:struct:CpuInfo::Taskstate
+cpunum	lapic.c	/^cpunum(void)$/;"	f
+cpus	mpconfig.c	/^struct CpuInfo cpus[NCPU];$/;"	v	typeref:struct:CpuInfo
+cputchar	console.c	/^cputchar(int c)$/;"	f
+crt_buf	console.c	/^static uint16_t *crt_buf;$/;"	v	file:
+crt_pos	console.c	/^static uint16_t crt_pos;$/;"	v	file:
+ctlmap	console.c	/^static uint8_t ctlmap[256] =$/;"	v	file:
+curenv	env.h	/^#define curenv /;"	d
+debuginfo_eip	kdebug.c	/^debuginfo_eip(uintptr_t addr, struct Eipdebuginfo *info)$/;"	f
+delay	console.c	/^delay(void)$/;"	f	file:
+desc	monitor.c	/^	const char *desc;$/;"	m	struct:Command	file:
+didinit	picirq.c	/^static bool didinit;$/;"	v	file:
+eip_file	kdebug.h	/^	const char *eip_file;		\/\/ Source code filename for EIP$/;"	m	struct:Eipdebuginfo
+eip_fn_addr	kdebug.h	/^	uintptr_t eip_fn_addr;		\/\/ Address of start of function$/;"	m	struct:Eipdebuginfo
+eip_fn_name	kdebug.h	/^	const char *eip_fn_name;	\/\/ Name of function containing EIP$/;"	m	struct:Eipdebuginfo
+eip_fn_namelen	kdebug.h	/^	int eip_fn_namelen;		\/\/ Length of function name$/;"	m	struct:Eipdebuginfo
+eip_fn_narg	kdebug.h	/^	int eip_fn_narg;		\/\/ Number of function arguments$/;"	m	struct:Eipdebuginfo
+eip_line	kdebug.h	/^	int eip_line;			\/\/ Source code linenumber for EIP$/;"	m	struct:Eipdebuginfo
+entries	mpconfig.c	/^	uint8_t entries[0];             \/\/ table entries$/;"	m	struct:mpconf	file:
+entry	entry.S	/^entry:$/;"	l
+entry	mpconfig.c	/^	uint16_t entry;                 \/\/ entry count$/;"	m	struct:mpconf	file:
+entry_pgdir	entrypgdir.c	/^pde_t entry_pgdir[NPDENTRIES] = {$/;"	v
+entry_pgtable	entrypgdir.c	/^pte_t entry_pgtable[NPTENTRIES] = {$/;"	v
+entry_pgtable	entrypgdir.c	/^pte_t entry_pgtable[NPTENTRIES];$/;"	v
+env_alloc	env.c	/^env_alloc(struct Env **newenv_store, envid_t parent_id)$/;"	f
+env_create	env.c	/^env_create(uint8_t *binary, enum EnvType type)$/;"	f
+env_destroy	env.c	/^env_destroy(struct Env *e)$/;"	f
+env_free	env.c	/^env_free(struct Env *e)$/;"	f
+env_free_list	env.c	/^static struct Env *env_free_list;	\/\/ Free environment list$/;"	v	typeref:struct:Env	file:
+env_init	env.c	/^env_init(void)$/;"	f
+env_init_percpu	env.c	/^env_init_percpu(void)$/;"	f
+env_pop_tf	env.c	/^env_pop_tf(struct Trapframe *tf)$/;"	f
+env_run	env.c	/^env_run(struct Env *e)$/;"	f
+env_setup_vm	env.c	/^env_setup_vm(struct Env *e)$/;"	f	file:
+envid2env	env.c	/^envid2env(envid_t envid, struct Env **env_store, bool checkperm)$/;"	f
+envs	env.c	/^struct Env *envs = NULL;		\/\/ All environments$/;"	v	typeref:struct:Env
+feature	mpconfig.c	/^	uint32_t feature;               \/\/ feature flags from CPUID instruction$/;"	m	struct:mpproc	file:
+flags	mpconfig.c	/^	uint8_t flags;                  \/\/ CPU flags$/;"	m	struct:mpproc	file:
+func	monitor.c	/^	int (*func)(int argc, char** argv, struct Trapframe* tf);$/;"	m	struct:Command	file:
+gdt	env.c	/^struct Segdesc gdt[NCPU + 5] =$/;"	v	typeref:struct:Segdesc
+gdt	mpentry.S	/^gdt:$/;"	l
+gdt_pd	env.c	/^struct Pseudodesc gdt_pd = {$/;"	v	typeref:struct:Pseudodesc
+gdtdesc	mpentry.S	/^gdtdesc:$/;"	l
+get_caller_pcs	spinlock.c	/^get_caller_pcs(uint32_t pcs[])$/;"	f	file:
+getchar	console.c	/^getchar(void)$/;"	f
+holding	spinlock.c	/^holding(struct spinlock *lock)$/;"	f	file:
+i386_detect_memory	pmap.c	/^i386_detect_memory(void)$/;"	f	file:
+i386_init	init.c	/^i386_init(void)$/;"	f
+idt	trap.c	/^struct Gatedesc idt[256] = { { 0 } };$/;"	v	typeref:struct:Gatedesc
+idt_pd	trap.c	/^struct Pseudodesc idt_pd = {$/;"	v	typeref:struct:Pseudodesc
+imcrp	mpconfig.c	/^	uint8_t imcrp;$/;"	m	struct:mp	file:
+irq_mask_8259A	picirq.c	/^uint16_t irq_mask_8259A = 0xFFFF & ~(1<<IRQ_SLAVE);$/;"	v
+irq_setmask_8259A	picirq.c	/^irq_setmask_8259A(uint16_t mask)$/;"	f
+iscons	console.c	/^iscons(int fdnum)$/;"	f
+ismp	mpconfig.c	/^int ismp;$/;"	v
+kbd_init	console.c	/^kbd_init(void)$/;"	f	file:
+kbd_intr	console.c	/^kbd_intr(void)$/;"	f
+kbd_proc_data	console.c	/^kbd_proc_data(void)$/;"	f	file:
+kern_pgdir	pmap.c	/^pde_t *kern_pgdir;		\/\/ Kernel's initial page directory$/;"	v
+kernel_lock	spinlock.c	/^struct spinlock kernel_lock = {$/;"	v	typeref:struct:spinlock
+lapic	lapic.c	/^volatile uint32_t *lapic;$/;"	v
+lapic_eoi	lapic.c	/^lapic_eoi(void)$/;"	f
+lapic_init	lapic.c	/^lapic_init(void)$/;"	f
+lapic_ipi	lapic.c	/^lapic_ipi(int vector)$/;"	f
+lapic_startap	lapic.c	/^lapic_startap(uint8_t apicid, uint32_t addr)$/;"	f
+lapicaddr	lapic.c	/^physaddr_t lapicaddr;        \/\/ Initialized in mpconfig.c$/;"	v
+lapicaddr	mpconfig.c	/^	physaddr_t lapicaddr;           \/\/ address of local APIC$/;"	m	struct:mpconf	file:
+lapicw	lapic.c	/^lapicw(int index, int value)$/;"	f	file:
+last_tf	trap.c	/^static struct Trapframe *last_tf;$/;"	v	typeref:struct:Trapframe	file:
+length	mpconfig.c	/^	uint16_t length;                \/\/ total table length$/;"	m	struct:mpconf	file:
+length	mpconfig.c	/^	uint8_t length;                 \/\/ 1$/;"	m	struct:mp	file:
+load_icode	env.c	/^load_icode(struct Env *e, uint8_t *binary)$/;"	f	file:
+lock_kernel	spinlock.h	/^lock_kernel(void)$/;"	f
+locked	spinlock.h	/^	unsigned locked;       \/\/ Is the lock held?$/;"	m	struct:spinlock
+lpt_putc	console.c	/^lpt_putc(int c)$/;"	f	file:
+mc146818_read	kclock.c	/^mc146818_read(unsigned reg)$/;"	f
+mc146818_write	kclock.c	/^mc146818_write(unsigned reg, unsigned datum)$/;"	f
+mem_init	pmap.c	/^mem_init(void)$/;"	f
+mem_init_mp	pmap.c	/^mem_init_mp(void)$/;"	f	file:
+microdelay	lapic.c	/^microdelay(int us)$/;"	f	file:
+mmio_map_region	pmap.c	/^mmio_map_region(physaddr_t pa, size_t size)$/;"	f
+mon_backtrace	monitor.c	/^mon_backtrace(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_help	monitor.c	/^mon_help(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_kerninfo	monitor.c	/^mon_kerninfo(int argc, char **argv, struct Trapframe *tf)$/;"	f
+monitor	monitor.c	/^monitor(struct Trapframe *tf)$/;"	f
+mp	mpconfig.c	/^struct mp {             \/\/ floating pointer [MP 4.1]$/;"	s	file:
+mp_init	mpconfig.c	/^mp_init(void)$/;"	f
+mp_main	init.c	/^mp_main(void)$/;"	f
+mpconf	mpconfig.c	/^struct mpconf {         \/\/ configuration table header [MP 4.2]$/;"	s	file:
+mpconfig	mpconfig.c	/^mpconfig(struct mp **pmp)$/;"	f	file:
+mpentry_end	mpentry.S	/^mpentry_end:$/;"	l
+mpentry_kstack	init.c	/^void *mpentry_kstack;$/;"	v
+mpentry_start	mpentry.S	/^mpentry_start:$/;"	l
+mpproc	mpconfig.c	/^struct mpproc {         \/\/ processor table entry [MP 4.3.1]$/;"	s	file:
+mpsearch	mpconfig.c	/^mpsearch(void)$/;"	f	file:
+mpsearch1	mpconfig.c	/^mpsearch1(physaddr_t a, int len)$/;"	f	file:
+name	monitor.c	/^	const char *name;$/;"	m	struct:Command	file:
+name	spinlock.h	/^	char *name;            \/\/ Name of lock.$/;"	m	struct:spinlock
+name	trapentry.S	/^	name:								\\$/;"	l
+name	trapentry.S	/^	name:			\/* function starts here *\/		\\$/;"	l
+ncpu	mpconfig.c	/^int ncpu;$/;"	v
+normalmap	console.c	/^static uint8_t normalmap[256] =$/;"	v	file:
+npages	pmap.c	/^size_t npages;			\/\/ Amount of physical memory (in pages)$/;"	v
+npages_basemem	pmap.c	/^static size_t npages_basemem;	\/\/ Amount of base memory (in pages)$/;"	v	file:
+nvram_read	pmap.c	/^nvram_read(int r)$/;"	f	file:
+oemlength	mpconfig.c	/^	uint16_t oemlength;             \/\/ OEM table length$/;"	m	struct:mpconf	file:
+oemtable	mpconfig.c	/^	physaddr_t oemtable;            \/\/ OEM table pointer$/;"	m	struct:mpconf	file:
+pa2page	pmap.h	/^pa2page(physaddr_t pa)$/;"	f
+page2kva	pmap.h	/^page2kva(struct PageInfo *pp)$/;"	f
+page2pa	pmap.h	/^page2pa(struct PageInfo *pp)$/;"	f
+page_alloc	pmap.c	/^page_alloc(int alloc_flags)$/;"	f
+page_decref	pmap.c	/^page_decref(struct PageInfo* pp)$/;"	f
+page_fault_handler	trap.c	/^page_fault_handler(struct Trapframe *tf)$/;"	f
+page_free	pmap.c	/^page_free(struct PageInfo *pp)$/;"	f
+page_free_list	pmap.c	/^static struct PageInfo *page_free_list;	\/\/ Free list of physical pages$/;"	v	typeref:struct:PageInfo	file:
+page_init	pmap.c	/^page_init(void)$/;"	f
+page_insert	pmap.c	/^page_insert(pde_t *pgdir, struct PageInfo *pp, void *va, int perm)$/;"	f
+page_lookup	pmap.c	/^page_lookup(pde_t *pgdir, void *va, pte_t **pte_store)$/;"	f
+page_remove	pmap.c	/^page_remove(pde_t *pgdir, void *va)$/;"	f
+pages	pmap.c	/^struct PageInfo *pages;		\/\/ Physical page state array$/;"	v	typeref:struct:PageInfo
+panicstr	init.c	/^const char *panicstr;$/;"	v
+pcs	spinlock.h	/^	uintptr_t pcs[10];     \/\/ The call stack (an array of program counters)$/;"	m	struct:spinlock
+percpu_kstacks	mpconfig.c	/^unsigned char percpu_kstacks[NCPU][KSTKSIZE]$/;"	v
+pgdir_walk	pmap.c	/^pgdir_walk(pde_t *pgdir, const void *va, int create)$/;"	f
+physaddr	mpconfig.c	/^	physaddr_t physaddr;            \/\/ phys addr of MP config table$/;"	m	struct:mp	file:
+pic_init	picirq.c	/^pic_init(void)$/;"	f
+print_regs	trap.c	/^print_regs(struct PushRegs *regs)$/;"	f
+print_trapframe	trap.c	/^print_trapframe(struct Trapframe *tf)$/;"	f
+product	mpconfig.c	/^	uint8_t product[20];            \/\/ product id$/;"	m	struct:mpconf	file:
+putch	printf.c	/^putch(int ch, int *cnt)$/;"	f	file:
+region_alloc	env.c	/^region_alloc(struct Env *e, void *va, size_t len)$/;"	f	file:
+relocated	entry.S	/^relocated:$/;"	l
+reserved	mpconfig.c	/^	uint8_t reserved;$/;"	m	struct:mpconf	file:
+reserved	mpconfig.c	/^	uint8_t reserved[3];$/;"	m	struct:mp	file:
+reserved	mpconfig.c	/^	uint8_t reserved[8];$/;"	m	struct:mpproc	file:
+rpos	console.c	/^	uint32_t rpos;$/;"	m	struct:__anon1	file:
+runcmd	monitor.c	/^runcmd(char *buf, struct Trapframe *tf)$/;"	f	file:
+sched_halt	sched.c	/^sched_halt(void)$/;"	f
+sched_yield	sched.c	/^sched_yield(void)$/;"	f
+serial_exists	console.c	/^static bool serial_exists;$/;"	v	file:
+serial_init	console.c	/^serial_init(void)$/;"	f	file:
+serial_intr	console.c	/^serial_intr(void)$/;"	f
+serial_proc_data	console.c	/^serial_proc_data(void)$/;"	f	file:
+serial_putc	console.c	/^serial_putc(int c)$/;"	f	file:
+shiftcode	console.c	/^static uint8_t shiftcode[256] =$/;"	v	file:
+shiftmap	console.c	/^static uint8_t shiftmap[256] =$/;"	v	file:
+signature	mpconfig.c	/^	uint8_t signature[4];           \/\/ "PCMP"$/;"	m	struct:mpconf	file:
+signature	mpconfig.c	/^	uint8_t signature[4];           \/\/ "_MP_"$/;"	m	struct:mp	file:
+signature	mpconfig.c	/^	uint8_t signature[4];           \/\/ CPU signature$/;"	m	struct:mpproc	file:
+specrev	mpconfig.c	/^	uint8_t specrev;                \/\/ [14]$/;"	m	struct:mp	file:
+spin	entry.S	/^spin:	jmp	spin$/;"	l
+spin	mpentry.S	/^spin:$/;"	l
+spin_initlock	spinlock.h	/^#define spin_initlock(/;"	d
+spin_lock	spinlock.c	/^spin_lock(struct spinlock *lk)$/;"	f
+spin_unlock	spinlock.c	/^spin_unlock(struct spinlock *lk)$/;"	f
+spinlock	spinlock.h	/^struct spinlock {$/;"	s
+stab_binsearch	kdebug.c	/^stab_binsearch(const struct Stab *stabs, int *region_left, int *region_right,$/;"	f	file:
+stab_end	kdebug.c	/^	const struct Stab *stab_end;$/;"	m	struct:UserStabData	typeref:struct:UserStabData::Stab	file:
+stabs	kdebug.c	/^	const struct Stab *stabs;$/;"	m	struct:UserStabData	typeref:struct:UserStabData::Stab	file:
+stabstr	kdebug.c	/^	const char *stabstr;$/;"	m	struct:UserStabData	file:
+stabstr_end	kdebug.c	/^	const char *stabstr_end;$/;"	m	struct:UserStabData	file:
+start32	mpentry.S	/^start32:$/;"	l
+sum	mpconfig.c	/^sum(void *addr, int len)$/;"	f	file:
+sys_cgetc	syscall.c	/^sys_cgetc(void)$/;"	f	file:
+sys_cputs	syscall.c	/^sys_cputs(const char *s, size_t len)$/;"	f	file:
+sys_env_destroy	syscall.c	/^sys_env_destroy(envid_t envid)$/;"	f	file:
+sys_env_set_pgfault_upcall	syscall.c	/^sys_env_set_pgfault_upcall(envid_t envid, void *func)$/;"	f	file:
+sys_env_set_status	syscall.c	/^sys_env_set_status(envid_t envid, int status)$/;"	f	file:
+sys_exofork	syscall.c	/^sys_exofork(void)$/;"	f	file:
+sys_getenvid	syscall.c	/^sys_getenvid(void)$/;"	f	file:
+sys_ipc_recv	syscall.c	/^sys_ipc_recv(void *dstva)$/;"	f	file:
+sys_ipc_try_send	syscall.c	/^sys_ipc_try_send(envid_t envid, uint32_t value, void *srcva, unsigned perm)$/;"	f	file:
+sys_page_alloc	syscall.c	/^sys_page_alloc(envid_t envid, void *va, int perm)$/;"	f	file:
+sys_page_map	syscall.c	/^sys_page_map(envid_t srcenvid, void *srcva,$/;"	f	file:
+sys_page_unmap	syscall.c	/^sys_page_unmap(envid_t envid, void *va)$/;"	f	file:
+sys_yield	syscall.c	/^sys_yield(void)$/;"	f	file:
+syscall	syscall.c	/^syscall(uint32_t syscallno, uint32_t a1, uint32_t a2, uint32_t a3, uint32_t a4, uint32_t a5)$/;"	f
+thiscpu	cpu.h	/^#define thiscpu /;"	d
+tlb_invalidate	pmap.c	/^tlb_invalidate(pde_t *pgdir, void *va)$/;"	f
+togglecode	console.c	/^static uint8_t togglecode[256] =$/;"	v	file:
+trap	trap.c	/^trap(struct Trapframe *tf)$/;"	f
+trap_dispatch	trap.c	/^trap_dispatch(struct Trapframe *tf)$/;"	f	file:
+trap_init	trap.c	/^trap_init(void)$/;"	f
+trap_init_percpu	trap.c	/^trap_init_percpu(void)$/;"	f
+trapname	trap.c	/^static const char *trapname(int trapno)$/;"	f	file:
+ts	trap.c	/^static struct Taskstate ts;$/;"	v	typeref:struct:Taskstate	file:
+type	mpconfig.c	/^	uint8_t type;                   \/\/ MP system config type$/;"	m	struct:mp	file:
+type	mpconfig.c	/^	uint8_t type;                   \/\/ entry type (0)$/;"	m	struct:mpproc	file:
+unlock_kernel	spinlock.h	/^unlock_kernel(void)$/;"	f
+user_mem_assert	pmap.c	/^user_mem_assert(struct Env *env, const void *va, size_t len, int perm)$/;"	f
+user_mem_check	pmap.c	/^user_mem_check(struct Env *env, const void *va, size_t len, int perm)$/;"	f
+user_mem_check_addr	pmap.c	/^static uintptr_t user_mem_check_addr;$/;"	v	file:
+vcprintf	printf.c	/^vcprintf(const char *fmt, va_list ap)$/;"	f
+version	mpconfig.c	/^	uint8_t version;                \/\/ [14]$/;"	m	struct:mpconf	file:
+version	mpconfig.c	/^	uint8_t version;                \/\/ local APIC version$/;"	m	struct:mpproc	file:
+wpos	console.c	/^	uint32_t wpos;$/;"	m	struct:__anon1	file:
+xchecksum	mpconfig.c	/^	uint8_t xchecksum;              \/\/ extended table checksum$/;"	m	struct:mpconf	file:
+xlength	mpconfig.c	/^	uint16_t xlength;               \/\/ extended table length$/;"	m	struct:mpconf	file:
